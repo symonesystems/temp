@@ -2,63 +2,145 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    
+    <!-- Primary SEO & Identity Meta Tags -->
     <title>SYMONE SYSTEMS</title>
-</head>
-<body style="margin: 0; padding: 0; background-color: #14161D; min-height: 100vh; width: 100%; display: flex; align-items: center; justify-content: center; overflow: hidden; box-sizing: border-box; -webkit-tap-highlight-color: transparent;">
+    <meta name="description" content="SYMONE SYSTEMS — Next-generation systems engineering, software architecture, and digital infrastructure.">
+    <meta name="keywords" content="Symone Systems, Systems Engineering, Software Architecture, Technology, Infrastructure">
+    <meta name="author" content="SYMONE SYSTEMS">
+    <meta name="robots" content="index, follow, max-image-preview:large">
+    <meta name="theme-color" content="#14161D">
+    <meta name="color-scheme" content="dark">
 
-    <!-- Main centered container strictly showcasing the brand logo image -->
-    <main id="logo-stage" style="display: flex; align-items: center; justify-content: center; width: 100%; padding: 24px; box-sizing: border-box;">
+    <!-- Open Graph / Social Sharing Meta Tags -->
+    <meta property="og:type" content="website">
+    <meta property="og:site_name" content="SYMONE SYSTEMS">
+    <meta property="og:title" content="SYMONE SYSTEMS">
+    <meta property="og:description" content="Next-generation systems engineering, software architecture, and digital infrastructure.">
+    <meta property="og:image" content="symonesystems-logo.png">
+    <meta property="og:image:alt" content="SYMONE SYSTEMS Emblem">
+
+    <!-- Twitter / X Card Meta Tags -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="SYMONE SYSTEMS">
+    <meta name="twitter:description" content="Next-generation systems engineering, software architecture, and digital infrastructure.">
+    <meta name="twitter:image" content="symonesystems-logo.png">
+    <meta name="twitter:image:alt" content="SYMONE SYSTEMS Emblem">
+
+    <!-- Favicons & Mobile Web App Icons -->
+    <link rel="icon" type="image/png" href="symonesystems-logo.png">
+    <link rel="apple-touch-icon" href="symonesystems-logo.png">
+</head>
+<body style="margin: 0; padding: 0; background-color: #14161D; min-height: 100vh; width: 100%; display: flex; align-items: center; justify-content: center; overflow-x: hidden; box-sizing: border-box; -webkit-tap-highlight-color: transparent;">
+
+    <!-- Main centered container showcasing the brand logo and minimalist social links -->
+    <main id="logo-stage" style="display: flex; flex-direction: column; align-items: center; justify-content: center; width: 100%; padding: 24px; box-sizing: border-box;">
         <img 
             id="symone-logo"
-            src="symonesystems-logo.jpeg" 
+            src="symonesystems-logo.png" 
             alt="SYMONE SYSTEMS"
             onerror="this.onerror=null; this.src='https://placehold.co/600x600/14161D/FFFFFF?text=SYMONE+SYSTEMS';"
-            style="width: 100%; max-width: 520px; height: auto; display: block; border-radius: 18px; opacity: 0; transform: translateY(12px) scale(0.985); transition: opacity 0.9s cubic-bezier(0.22, 1, 0.36, 1), transform 0.6s cubic-bezier(0.22, 1, 0.36, 1), filter 0.5s ease; cursor: pointer; user-select: none; -webkit-user-select: none;"
+            style="width: 100%; max-width: 500px; height: auto; display: block; border-radius: 18px; opacity: 0; transform: translateY(12px) scale(0.985); transition: opacity 0.9s cubic-bezier(0.22, 1, 0.36, 1), transform 0.6s cubic-bezier(0.22, 1, 0.36, 1), filter 0.5s ease; cursor: pointer; user-select: none; -webkit-user-select: none;"
         >
+
+        <!-- Minimalist Inline SVG Social Navigation (X, YouTube, GitHub) -->
+        <nav id="social-nav" aria-label="Social Links" style="display: flex; align-items: center; justify-content: center; gap: 22px; margin-top: 28px; opacity: 0; transform: translateY(10px); transition: opacity 1s cubic-bezier(0.22, 1, 0.36, 1) 0.18s, transform 0.7s cubic-bezier(0.22, 1, 0.36, 1) 0.18s;">
+            
+            <!-- X (Twitter) -->
+            <a 
+                href="https://x.com" 
+                target="_blank" 
+                rel="noopener noreferrer" 
+                aria-label="SYMONE SYSTEMS on X"
+                class="social-link"
+                data-accent="cyan"
+                style="display: inline-flex; align-items: center; justify-content: center; width: 46px; height: 46px; border-radius: 12px; color: rgba(255, 255, 255, 0.65); background-color: rgba(255, 255, 255, 0.03); border: 1px solid rgba(255, 255, 255, 0.08); text-decoration: none; transition: color 0.3s ease, transform 0.3s cubic-bezier(0.22, 1, 0.36, 1), border-color 0.3s ease, background-color 0.3s ease, box-shadow 0.3s ease;"
+            >
+                <svg width="19" height="19" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true">
+                    <path d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-5.214-6.817L4.99 21.75H1.68l7.73-8.835L1.254 2.25H8.08l4.713 6.231zm-1.161 17.52h1.833L7.084 4.126H5.117z"/>
+                </svg>
+            </a>
+
+            <!-- YouTube -->
+            <a 
+                href="https://youtube.com" 
+                target="_blank" 
+                rel="noopener noreferrer" 
+                aria-label="SYMONE SYSTEMS on YouTube"
+                class="social-link"
+                data-accent="red"
+                style="display: inline-flex; align-items: center; justify-content: center; width: 46px; height: 46px; border-radius: 12px; color: rgba(255, 255, 255, 0.65); background-color: rgba(255, 255, 255, 0.03); border: 1px solid rgba(255, 255, 255, 0.08); text-decoration: none; transition: color 0.3s ease, transform 0.3s cubic-bezier(0.22, 1, 0.36, 1), border-color 0.3s ease, background-color 0.3s ease, box-shadow 0.3s ease;"
+            >
+                <svg width="21" height="21" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true">
+                    <path d="M23.498 6.186a3.016 3.016 0 0 0-2.122-2.136C19.505 3.545 12 3.545 12 3.545s-7.505 0-9.377.505A3.017 3.017 0 0 0 .502 6.186C0 8.07 0 12 0 12s0 3.93.502 5.814a3.016 3.016 0 0 0 2.122 2.136c1.871.505 9.376.505 9.376.505s7.505 0 9.377-.505a3.015 3.015 0 0 0 2.122-2.136C24 15.93 24 12 24 12s0-3.93-.502-5.814zM9.545 15.568V8.432L15.818 12l-6.273 3.568z"/>
+                </svg>
+            </a>
+
+            <!-- GitHub -->
+            <a 
+                href="https://github.com" 
+                target="_blank" 
+                rel="noopener noreferrer" 
+                aria-label="SYMONE SYSTEMS on GitHub"
+                class="social-link"
+                data-accent="dual"
+                style="display: inline-flex; align-items: center; justify-content: center; width: 46px; height: 46px; border-radius: 12px; color: rgba(255, 255, 255, 0.65); background-color: rgba(255, 255, 255, 0.03); border: 1px solid rgba(255, 255, 255, 0.08); text-decoration: none; transition: color 0.3s ease, transform 0.3s cubic-bezier(0.22, 1, 0.36, 1), border-color 0.3s ease, background-color 0.3s ease, box-shadow 0.3s ease;"
+            >
+                <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true">
+                    <path fill-rule="evenodd" clip-rule="evenodd" d="M12 2C6.477 2 2 6.484 2 12.017c0 4.425 2.865 8.18 6.839 9.504.5.092.682-.217.682-.483 0-.237-.008-.868-.013-1.703-2.782.605-3.369-1.343-3.369-1.343-.454-1.158-1.11-1.466-1.11-1.466-.908-.62.069-.608.069-.608 1.003.07 1.53 1.032 1.53 1.032.892 1.53 2.341 1.088 2.91.832.092-.647.35-1.088.636-1.338-2.22-.253-4.555-1.113-4.555-4.951 0-1.093.39-1.988 1.029-2.688-.103-.253-.446-1.272.098-2.65 0 0 .84-.27 2.75 1.026A9.564 9.564 0 0112 6.844c.85.004 1.705.115 2.504.337 1.909-1.296 2.747-1.027 2.747-1.027.546 1.379.202 2.398.1 2.651.64.7 1.028 1.595 1.028 2.688 0 3.848-2.339 4.695-4.566 4.943.359.309.678.92.678 1.855 0 1.338-.012 2.419-.012 2.747 0 .268.18.58.688.482A10.019 10.019 0 0022 12.017C22 6.484 17.522 2 12 2z"/>
+                </svg>
+            </a>
+
+        </nav>
     </main>
 
     <script>
         // Inline interaction logic for smooth entrance and circuit-accented hover/tap glow
         (function () {
             const logo = document.getElementById('symone-logo');
+            const socialNav = document.getElementById('social-nav');
+            const socialLinks = document.querySelectorAll('.social-link');
+
             if (!logo) return;
 
             let isActive = false;
 
-            // Smooth entrance animation once page resources are ready
-            window.addEventListener('load', function () {
-                requestAnimationFrame(function () {
-                    logo.style.opacity = '1';
-                    logo.style.transform = 'translateY(0) scale(1)';
-                });
-            });
-
-            // Fallback in case the image is already cached before window load fires
-            if (document.readyState === 'complete') {
+            // Reveal logo and social bar smoothly
+            function revealElements() {
                 logo.style.opacity = '1';
                 logo.style.transform = 'translateY(0) scale(1)';
+                if (socialNav) {
+                    socialNav.style.opacity = '1';
+                    socialNav.style.transform = 'translateY(0)';
+                }
             }
 
-            // Apply dual cyan (#24C6F2) and red (#EE3124) circuit glow on hover/focus
+            window.addEventListener('load', function () {
+                requestAnimationFrame(revealElements);
+            });
+
+            if (document.readyState === 'complete') {
+                revealElements();
+            }
+
+            // Apply dual cyan (#24C6F2) and red (#EE3124) circuit glow on logo
             function activateGlow() {
                 isActive = true;
                 logo.style.transform = 'translateY(-3px) scale(1.018)';
                 logo.style.filter = 'drop-shadow(0 -8px 26px rgba(36, 198, 242, 0.24)) drop-shadow(0 8px 26px rgba(238, 49, 36, 0.22))';
             }
 
-            // Restore neutral resting state
             function deactivateGlow() {
                 isActive = false;
                 logo.style.transform = 'translateY(0) scale(1)';
                 logo.style.filter = 'none';
             }
 
-            // Desktop pointer events
             logo.addEventListener('mouseenter', activateGlow);
             logo.addEventListener('mouseleave', deactivateGlow);
 
-            // Mobile & touch tap responsiveness
             logo.addEventListener('touchstart', function () {
                 activateGlow();
             }, { passive: true });
@@ -67,7 +149,6 @@
                 setTimeout(deactivateGlow, 350);
             }, { passive: true });
 
-            // Subtle interactive pulse on click/tap
             logo.addEventListener('click', function () {
                 logo.style.transform = 'translateY(-1px) scale(0.995)';
                 setTimeout(function () {
@@ -77,6 +158,49 @@
                         deactivateGlow();
                     }
                 }, 140);
+            });
+
+            // Circuit-accented hover, focus, and touch interactions for social links
+            socialLinks.forEach(function (link) {
+                const accent = link.getAttribute('data-accent');
+
+                function activateLink() {
+                    link.style.color = '#FFFFFF';
+                    link.style.transform = 'translateY(-2px)';
+                    link.style.backgroundColor = 'rgba(255, 255, 255, 0.06)';
+
+                    if (accent === 'cyan') {
+                        link.style.borderColor = 'rgba(36, 198, 242, 0.55)';
+                        link.style.boxShadow = '0 0 18px rgba(36, 198, 242, 0.28)';
+                    } else if (accent === 'red') {
+                        link.style.borderColor = 'rgba(238, 49, 36, 0.55)';
+                        link.style.boxShadow = '0 0 18px rgba(238, 49, 36, 0.28)';
+                    } else {
+                        link.style.borderColor = 'rgba(36, 198, 242, 0.45)';
+                        link.style.boxShadow = '-4px 0 14px rgba(36, 198, 242, 0.24), 4px 0 14px rgba(238, 49, 36, 0.24)';
+                    }
+                }
+
+                function deactivateLink() {
+                    link.style.color = 'rgba(255, 255, 255, 0.65)';
+                    link.style.transform = 'translateY(0)';
+                    link.style.backgroundColor = 'rgba(255, 255, 255, 0.03)';
+                    link.style.borderColor = 'rgba(255, 255, 255, 0.08)';
+                    link.style.boxShadow = 'none';
+                }
+
+                link.addEventListener('mouseenter', activateLink);
+                link.addEventListener('mouseleave', deactivateLink);
+                link.addEventListener('focus', activateLink);
+                link.addEventListener('blur', deactivateLink);
+
+                link.addEventListener('touchstart', function () {
+                    activateLink();
+                }, { passive: true });
+
+                link.addEventListener('touchend', function () {
+                    setTimeout(deactivateLink, 300);
+                }, { passive: true });
             });
         })();
     </script>
